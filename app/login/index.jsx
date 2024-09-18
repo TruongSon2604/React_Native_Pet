@@ -4,7 +4,7 @@ import { Image } from "react-native";
 import Colors from "../../constants/Colors";
 export default function LoginScreen() {
   return (
-    <View style={{backgroundColor:Colors.WHITE,height:'100%'}}>
+    <View style={{ backgroundColor: Colors.WHITE, height: "100%" }}>
       <Image
         source={require("../../assets/images/login.png")}
         style={{ width: "100%", height: 500 }}
@@ -38,7 +38,15 @@ export default function LoginScreen() {
             width: "100%",
           }}
         >
-          <Text style={{ textAlign: "center",fontSize:20,fontFamily:'outfit-medium' }}>Get Started</Text>
+          <Text
+            style={{
+              textAlign: "center",
+              fontSize: 20,
+              fontFamily: "outfit-medium",
+            }}
+          >
+            Get Started aaaa
+          </Text>
         </Pressable>
       </View>
     </View>
